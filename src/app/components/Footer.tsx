@@ -14,15 +14,6 @@ export function Footer() {
         </p>
 
         <div className="flex items-center gap-4">
-          <a href="mailto:indigo.pasmer@gmail.com" className="hover:text-blue-400 transition-colors">
-            <Mail size={20} />
-          </a>
-          <a href="https://www.linkedin.com/in/indigo402/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors">
-            <Linkedin size={20} />
-          </a>
-          <a href="https://github.com/indigo402" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors">
-            <Github size={20} />
-          </a>
         </div>
       </div>
     </footer>

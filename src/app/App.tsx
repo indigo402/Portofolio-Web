@@ -1,4 +1,5 @@
 import { Hero } from "./components/Hero";
+import { Contact } from "./components/Contact";
 import { Experience } from "./components/Experience";
 import { Skills } from "./components/Skills";
 import { Certifications } from "./components/Certifications";
@@ -8,6 +9,7 @@ export default function App() {
   return (
     <div className="min-h-screen bg-slate-950 font-sans selection:bg-blue-500/30 text-slate-200">
       <Hero />
+      <Contact />
       <Experience />
       <Skills />
       <Certifications />
