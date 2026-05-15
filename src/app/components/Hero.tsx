@@ -18,7 +18,7 @@ export function Hero() {
           className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-900/50 border border-blue-500/30 text-cyan-300 mb-8"
         >
           <Anchor size={16} />
-          <span className="text-sm font-medium tracking-wider uppercase">Maritime Smartport Tech</span>
+          <span className="text-sm font-medium tracking-wider uppercase">Portofolio</span>
         </motion.div>
 
         <motion.h1
@@ -27,7 +27,7 @@ export function Hero() {
           transition={{ duration: 0.6, delay: 0.1 }}
           className="text-5xl md:text-7xl font-bold text-white mb-6 tracking-tight"
         >
-          Ahmad Rizqi
+          Indigo Noor Muin
         </motion.h1>
 
         <motion.h2
@@ -36,7 +36,7 @@ export function Hero() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="text-2xl md:text-3xl text-blue-300 font-light mb-8"
         >
-          Quality Assurance & IT Support Engineer
+          Software Engineer
         </motion.h2>
 
         <motion.p
@@ -45,7 +45,7 @@ export function Hero() {
           transition={{ duration: 0.6, delay: 0.3 }}
           className="max-w-2xl text-slate-400 text-lg mb-12 leading-relaxed"
         >
-          Ensuring the reliability of mission-critical maritime software solutions. Passionate about software quality, system integration, and providing seamless technical support for 24/7 port operations.
+          Quality Assurance and IT Support Engineer with strong troubleshooting and system support skills across desktop and web applications. Experienced in manual and automated testing, diagnosing hardware and software issues, and guiding users through resolution steps to enhance performance and reliability. Proven track record of improving application stability and ensuring smooth system operations while delivering responsive customer service.
         </motion.p>
 
         <motion.div
@@ -62,7 +62,8 @@ export function Hero() {
             <ArrowRight size={18} />
           </a>
           <a
-            href="#contact"
+            href="/cv.pdf"
+            download="Indigo_Noor_Muin_CV.pdf"
             className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-slate-800 hover:bg-slate-700 border border-slate-700 text-white rounded-lg font-medium transition-colors cursor-pointer"
           >
             Download CV

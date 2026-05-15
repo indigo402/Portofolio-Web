@@ -3,22 +3,46 @@ import { Award, BookOpen } from "lucide-react";
 
 const certifications = [
   {
-    title: "ISTQB Certified Tester",
-    level: "Foundation Level",
-    issuer: "International Software Testing Qualifications Board",
-    date: "2021"
+    title: "Software Testing/QA",
+    level: "Programming Foundations",
+    issuer: "LinkedIn Learning",
+    date: "2024",
+    url: "https://www.linkedin.com/learning/certificates/100aa7dcb3f1671ccf7e21db86a0a3196ce37593ff09ad77dde41a9902f1ebc0"
   },
   {
-    title: "CompTIA Network+",
+    title: "SQL (Advanced) Certificate",
     level: "Professional Certification",
-    issuer: "CompTIA",
-    date: "2020"
+    issuer: "HackerRank",
+    date: "2026",
+    url: "https://www.hackerrank.com/certificates/iframe/b96c22e5580f"
   },
   {
-    title: "AWS Certified Cloud Practitioner",
-    level: "Foundational",
-    issuer: "Amazon Web Services",
-    date: "2022"
+    title: "Business User Hands On",
+    level: "Professional Certification",
+    issuer: "Alibaba Cloud Certification",
+    date: "2026",
+    url: "https://drive.google.com/file/d/1SzH6oy-Hr4sXztF3OkPK6MNUCvkRbmwV/view?usp=sharing"
+  },
+  {
+    title: "Memulai Pemrograman dengan Python",
+    level: "Professional Certification",
+    issuer: "Dicoding Indonesia",
+    date: "2024 - 2027",
+    url: "https://www.dicoding.com/certificates/L4PQQO0G4PO1"
+  },
+  {
+    title: "Belajar Dasar AWS Cloud",
+    level: "Professional Certification",
+    issuer: "Dicoding Indonesia",
+    date: "2024 - 2027",
+    url: "https://www.dicoding.com/certificates/2VX3OD55NZYQ"
+  },
+   {
+    title: "Belajar Machine Learning untuk Pemula",
+    level: "Professional Certification",
+    issuer: "Dicoding Indonesia",
+    date: "2024 - 2027",
+    url: "https://www.dicoding.com/certificates/QLZ97QN07P5D"
   }
 ];
 
@@ -60,20 +84,23 @@ export function Certifications() {
                 <BookOpen className="text-cyan-400" size={24} />
                 <h3 className="text-lg font-bold">Bachelor of Computer Science</h3>
               </div>
-              <p className="text-slate-300 ml-10">Institute of Technology Nusantara</p>
-              <p className="text-slate-500 text-sm ml-10 mt-1">2014 - 2018</p>
+              <p className="text-slate-300 ml-10">State Polytechnic of Jakarta (PNJ)</p>
+              <p className="text-slate-500 text-sm ml-10 mt-1">2017 - 2021</p>
             </motion.div>
           </div>
 
           <div className="md:w-2/3 space-y-4 w-full">
             {certifications.map((cert, index) => (
-              <motion.div
+              <motion.a
                 key={index}
+                href={cert.url}
+                target="_blank"
+                rel="noopener noreferrer"
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1 }}
-                className="flex items-center justify-between p-6 bg-slate-800 rounded-xl border border-slate-700 hover:border-blue-500 transition-colors group cursor-default"
+                className="flex items-center justify-between p-6 bg-slate-800 rounded-xl border border-slate-700 hover:border-blue-500 transition-colors group cursor-pointer"
               >
                 <div className="flex items-center gap-6">
                   <div className="w-12 h-12 bg-slate-900 rounded-full flex items-center justify-center shrink-0">
@@ -87,7 +114,7 @@ export function Certifications() {
                 <div className="text-cyan-500 font-mono text-sm hidden sm:block">
                   {cert.date}
                 </div>
-              </motion.div>
+              </motion.a>
             ))}
           </div>
         </div>

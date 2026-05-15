@@ -6,21 +6,21 @@ export function Footer() {
       <div className="container mx-auto px-6 flex flex-col md:flex-row items-center justify-between">
         <div className="flex items-center gap-2 mb-4 md:mb-0">
           <Anchor className="text-blue-500" size={24} />
-          <span className="text-white font-bold text-lg">Ahmad Rizqi</span>
+          <span className="text-white font-bold text-lg">Indigo Noor Muin</span>
         </div>
         
         <p className="text-sm mb-4 md:mb-0">
-          © {new Date().getFullYear()} Ahmad Rizqi. All rights reserved.
+          © {new Date().getFullYear()} Indigo Noor Muin. All rights reserved.
         </p>
 
         <div className="flex items-center gap-4">
-          <a href="#" className="hover:text-blue-400 transition-colors">
+          <a href="mailto:indigo.pasmer@gmail.com" className="hover:text-blue-400 transition-colors">
             <Mail size={20} />
           </a>
-          <a href="#" className="hover:text-blue-400 transition-colors">
+          <a href="https://www.linkedin.com/in/indigo402/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors">
             <Linkedin size={20} />
           </a>
-          <a href="#" className="hover:text-blue-400 transition-colors">
+          <a href="https://github.com/indigo402" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors">
             <Github size={20} />
           </a>
         </div>

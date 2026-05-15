@@ -4,29 +4,71 @@ import { Ship, Server, CheckCircle2 } from "lucide-react";
 const experiences = [
   {
     id: 1,
-    role: "Senior Quality Assurance Engineer",
-    company: "Oceania Smartport Solutions",
-    period: "2021 - Present",
+    role: "Quality Assurance & IT Support Engineer",
+    company: "Innovez One Pte Ltd",
+    period: "April 2024 - Present",
     icon: Ship,
     description: "Leading QA efforts for terminal operating systems (TOS) and port community systems.",
     achievements: [
       "Designed and executed automated API and UI test suites using Selenium and Postman, reducing manual testing time by 40%.",
       "Collaborated with developers and maritime domain experts to ensure software complies with international shipping standards.",
-      "Identified and tracked critical bugs in the vessel scheduling module, preventing potential operational delays."
+      "Identified and tracked critical bugs in all modules, preventing potential operational delays."
     ]
   },
   {
     id: 2,
-    role: "IT Support Specialist",
-    company: "Nusantara Maritime Logistics",
-    period: "2018 - 2021",
+    role: "Operational Business Service Staff",
+    company: "PT. Permodalan Nasional Madani (PNM)",
+    period: "May 2023 - Dec 2023",
     icon: Server,
-    description: "Managed IT infrastructure and provided technical support for a 24/7 busy logistics hub.",
+    description: "Manage branch operations, perform monitoring, and assist with branch issues via tickets.",
     achievements: [
-      "Provided Level 2 technical support for over 200 port personnel, resolving hardware and software issues.",
-      "Maintained and monitored local area networks (LAN) and wireless access points across the port facility.",
-      "Implemented a structured ticketing system that improved IT response times by 45%."
+      "Oversaw closing operations and ensured targets were met according to SOP.",
+      "Generated daily, weekly, monthly, and yearly reports.",
+      "Maintained financial balance stability and identified discrepancies including potential fraud cases."
     ]
+  },
+  {
+    id: 3,
+    role: "Support System Management Staff",
+    company: "PT. Sigma Cipta Caraka (Telkomsigma)",
+    period: "May 2022 - May 2023",
+    icon: Server,
+    description: "Managed IT infrastructure and provided 24/7 (shift-based) technical monitoring across all bank branches.",
+    achievements: [
+      "Managed end-of-day and beginning-of-day banking batch processes for Bank BTN.",
+      "Performed data backup and restoration for critical banking operations."
+    ]
+  },
+  {
+    id: 4,
+    role: "Programmer",
+    company: "PT. Signa Arta Technology",
+    period: "Dec 2021 - Apr 2022",
+    icon: Server,
+    description: "Junior Programmer",
+    achievements: [
+      "Developed and maintained PSAK71 accounting system using Java Spring Boot and Vue.js.",
+      "Built dashboard application for SIPlah cash management system using Vue.js and Laravel Lumen."
+    ]
+  },
+  {
+    id: 5,
+    role: "Website Developer (Internship)",
+    company: "Badan Informasi Geospasial (BIG)",
+    period: "Feb 2020 - Mar 2020",
+    icon: Server,
+    description: "Developed GIS-based website using Laravel framework.",
+    achievements: []
+  },
+  {
+    id: 6,
+    role: "Website Developer (Internship)",
+    company: "Sada Technology",
+    period: "Jan 2020 - Feb 2020",
+    icon: Server,
+    description: "Built web applications using Laravel framework.",
+    achievements: []
   }
 ];
 
