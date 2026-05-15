@@ -70,7 +70,7 @@ export function Certifications() {
               transition={{ delay: 0.1 }}
               className="text-slate-400 mb-8"
             >
-              Continuous learning is critical in navigating the complex world of maritime technology and quality assurance.
+              Committed to mastering modern software development, cloud technologies, and artificial intelligence.
             </motion.p>
             
             <motion.div 
