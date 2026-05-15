@@ -71,7 +71,7 @@ export function Contact() {
 
           {/* Calendar */}
           <a
-            href="https://calendly.com/indigo402"
+            href="https://calendly.com/indigopasmer/30min"
             target="_blank"
             rel="noopener noreferrer"
             className="group flex items-center justify-center gap-3 p-6 bg-slate-800 hover:bg-blue-900/50 border border-slate-700 hover:border-blue-500 rounded-xl transition-all"
