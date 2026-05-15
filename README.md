@@ -47,10 +47,6 @@ The website will be available at `http://localhost:5173` (or the port specified 
 npm run build
 ```
 
-## 🎨 Design Reference
-
-The original design prototype can be viewed on Figma: [Portfolio Design](https://www.figma.com/design/OOMpXTRJ3mzlJj6niCDD0A/Portofolio-Website)
-
 ## 📚 Tech Stack
 
 - **Frontend Framework**: React + TypeScript
