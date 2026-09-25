@@ -5,7 +5,7 @@ const skillCategories = [
   {
     title: "Quality Assurance",
     icon: ShieldAlert,
-    skills: ["Manual Testing", "Automated Testing", "API Testing (Postman)", "Selenium WebDriver", "JIRA / Bug Tracking", "Test Planning"]
+    skills: ["Manual Testing", "Automated Testing", "API Testing (Postman)", "Playwright Automation", "JIRA / Bug Tracking", "Test Planning"]
   },
   {
     title: "IT Support & Infrastructure",
