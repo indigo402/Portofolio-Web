@@ -1,5 +1,6 @@
 import { motion } from "motion/react";
-import { Mail, Linkedin, Github, Calendar, Boxes, ExternalLink } from "lucide-react";
+import { Mail, Calendar, Boxes, ExternalLink } from "lucide-react";
+import { Github, Linkedin } from "./social-icons";
 
 export function Contact() {
   return (

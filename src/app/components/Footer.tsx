@@ -1,4 +1,4 @@
-import { Anchor, Mail, Linkedin, Github } from "lucide-react";
+import { Anchor } from "lucide-react";
 
 export function Footer() {
   return (
